@@ -15,6 +15,9 @@ public class MyBean {
     @Value("${envVariable2}")
 	public String envVal2;
     
+    @Value("${envVariable3}")
+	public String envVal3;
+    
     @Value("${mvnVariable}")
 	public String mvnVal;
 }
